@@ -1,0 +1,70 @@
+body {
+
+}
+
+#container{
+	margin-left:auto;
+	margin-right:auto;
+	width:835px;
+	position:relative;
+}
+
+#left {
+	width:502px;
+}
+
+#frame {
+	z-index:2;
+	position:absolute;
+}
+
+#top_hat {
+	z-index:1;
+	position:absolute;
+	top:67px;
+}
+
+#senator_eduard {
+	z-index:0;
+	position:absolute;
+}
+
+
+
+
+
+
+#slide1 {
+	width:333px;
+	height:600px;
+	position:absolute;
+	left:502px;
+	background-color:red;
+}
+
+#next1 {
+	position:absolute;
+	top:530px;
+	left:200px;
+}
+
+
+#slide2 {
+	width:333px;
+	height:600px;
+	position:absolute;
+	left:502px;
+	background-color:green;
+}
+
+#prev2 {
+	position:absolute;
+	top:530px;
+	left:35px;
+}
+
+#next2 {
+	position:absolute;
+	top:530px;
+	left:200px;
+}
