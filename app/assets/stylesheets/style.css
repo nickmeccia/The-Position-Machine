@@ -5,7 +5,7 @@ body {
 #container{
 	margin-left:auto;
 	margin-right:auto;
-	width:835px;
+	width:970px;
 	position:relative;
 }
 
@@ -14,89 +14,94 @@ body {
 }
 
 #frame {
-	z-index:2;
-	position:absolute;
+/*	z-index:2;*/
+/*	position:absolute;*/
 }
 
 #top_hat {
-	z-index:1;
-	position:absolute;
+/*	z-index:2;*/
+/*	position:absolute;*/
 	top:83px;
 }
 
-#senator_eduard {
-	z-index:0;
-	position:absolute;
+#senator_edouard {
+	z-index:1;
+/*	position:absolute;*/
+	position:static;
 }
 
 
 
-
+#right {
+	position:fixed;
+	top:10px;
+	left:250px;
+}
 
 ul.slideshow {
 	text-align:center;
 }
 
 #slide1 {
-	width:333px;
-	height:600px;
+	width:375px;
+	height:650px;
 	position:absolute;
-	left:520px;
+	left:530px;
 }
 
 #next1 {
 	position:absolute;
-	top:530px;
+	top:580px;
 	left:200px;
 }
 
 #slide2 {
-	width:333px;
-	height:600px;
+	width:375px;
+	height:650px;
 	position:absolute;
-	left:520px;
+	left:530px;
 }
 
 #prev2 {
 	position:absolute;
-	top:530px;
+	top:580px;
 	left:35px;
 }
 
 #next2 {
 	position:absolute;
-	top:530px;
+	top:580px;
 	left:200px;
 }
 
 #slide3 {
-	width:333px;
-	height:600px;
+	width:375px;
+	height:650px;
 	position:absolute;
-	left:520px;
+	left:530px;
 }
 
 #prev3 {
 	position:absolute;
-	top:530px;
+	top:580px;
 	left:35px;
 }
 
 #next3 {
 	position:absolute;
-	top:530px;
+	top:580px;
 	left:200px;
 }
 
 #slide4 {
-	width:333px;
-	height:600px;
+	width:375px;
+	height:650px;
 	position:absolute;
-	left:520px;
+	left:530px;
 }
 
 #prev4 {
 	position:absolute;
-	top:530px;
+	top:580px;
 	left:35px;
 }
