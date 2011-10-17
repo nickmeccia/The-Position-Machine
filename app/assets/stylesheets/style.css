@@ -21,7 +21,7 @@ body {
 #top_hat {
 	z-index:1;
 	position:absolute;
-	top:67px;
+	top:83px;
 }
 
 #senator_eduard {
@@ -33,13 +33,15 @@ body {
 
 
 
+ul.slideshow {
+	text-align:center;
+}
 
 #slide1 {
 	width:333px;
 	height:600px;
 	position:absolute;
-	left:502px;
-	background-color:red;
+	left:520px;
 }
 
 #next1 {
@@ -48,13 +50,11 @@ body {
 	left:200px;
 }
 
-
 #slide2 {
 	width:333px;
 	height:600px;
 	position:absolute;
-	left:502px;
-	background-color:green;
+	left:520px;
 }
 
 #prev2 {
@@ -67,4 +67,36 @@ body {
 	position:absolute;
 	top:530px;
 	left:200px;
+}
+
+#slide3 {
+	width:333px;
+	height:600px;
+	position:absolute;
+	left:520px;
+}
+
+#prev3 {
+	position:absolute;
+	top:530px;
+	left:35px;
+}
+
+#next3 {
+	position:absolute;
+	top:530px;
+	left:200px;
+}
+
+#slide4 {
+	width:333px;
+	height:600px;
+	position:absolute;
+	left:520px;
+}
+
+#prev4 {
+	position:absolute;
+	top:530px;
+	left:35px;
 }

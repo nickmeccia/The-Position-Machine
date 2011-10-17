@@ -17,7 +17,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
+gem 'rack', '1.3.3'
+    
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -30,6 +31,5 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
-  gem 'cucumber-rails'
-  gem 'database_cleaner'
+  gem 'jasmine'
 end

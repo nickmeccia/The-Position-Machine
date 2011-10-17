@@ -1,17 +1,15 @@
 
 <div id="container">
 <div id="left">
-<div id="frame">
-	<%= image_tag "frame.png", :alt => "2" %>
-</div>
-
-<div id="top_hat">
-	<%= image_tag "top_hat.png", :alt => "1" %>
-</div>
-
-<div id="senator_eduard">
-	<%= image_tag "senator_eduard.png", :alt => "0" %>
-</div>
+	<div id="senator_eduard">
+		<%= image_tag "senator_eduard.png", :alt => "0" %>
+	</div>
+	<div id="top_hat">
+		<%= image_tag "top_hat.png", :alt => "1" %>
+	</div>
+	<div id="frame">
+		<%= image_tag "frame.png", :alt => "2" %>
+	</div>
 </div>
 
 
@@ -21,12 +19,19 @@
 <ul class="slideshow">
 
 	<li id="slide1">
+		<h1>OH, NO!</h1>
+		<!-- Senator Eduard had misplaced his hat by the time he was ushered into the photography studio for the portrait honoring his inauguration. As the resident lighting assistant, you have been delegated with editing a hat into the shot before framing the image.
+		Your mentor left you a set of cryptic instructions which seem like they might be useful, if only you could decipher them... -->
 		<div id="next1">
 			<%= image_tag "forward_hand.png", :alt => "next" %>
 		</div>
 	</li>
 
 	<li id="slide2">
+		<!-- "I've purchased a top hat at the stock photo bazaar for you to use.
+		Be precise when aligning the cutout on Sir Eduard's crown: remember that static positioning will keep the image in line with document content, fixed positioning places content relative to the browser window, absolute positioning will change a location based on the items that come before it, and relative positioning will set up an element to affect absolutely positioned items that follow.
+		Don't forget to twist the z-index knob up and down to place that hat above or below other content!"
+		Whatever could he mean? It was all so confusing. -->
 		<div id="prev2">
 			<%= image_tag "back_hand.png", :alt => "previous" %>
 		</div>
@@ -35,7 +40,23 @@
 		</div>
 	</li>
 		
+	<li id="slide3">
+		<!-- "When positioning the frame, I advise you keep your techniques consistent; too many cooks in the kitchen, as they say.
+		And make sure to mount the frame on top of both the photo AND the top hat! We can't have some craft fair pastiche of such an important figure."
+		Getting the hang of the professor's language, it was starting to come together. -->
+		<div id="prev3">
+			<%= image_tag "back_hand.png", :alt => "previous" %>
+		</div>
+		<div id="next3">
+			<%= image_tag "forward_hand.png", :alt => "next" %>
+		</div>
+	</li>
 		
+	<li id="slide4">
+		<div id="prev4">
+			<%= image_tag "back_hand.png", :alt => "next" %>
+		</div>
+	</li>
 </ul>
 
 
