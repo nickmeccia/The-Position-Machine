@@ -1,12 +1,14 @@
 body {
-
+	margin-left:auto;
+	margin-right:auto;
+	width:877px;
 }
 
 #container{
-	margin-left:auto;
-	margin-right:auto;
-	width:970px;
+/*	margin-left:auto;*/
 	position:relative;
+	text-align:left;
+	margin-right:375px;
 }
 
 #left {
@@ -31,16 +33,9 @@ body {
 	position:static;
 }
 
-
-
-#right {
+ul.slideshow {
 	position:absolute;
 	top:10px;
-/*	left:250px;*/
-/*	left:10%;*/
-}
-
-ul.slideshow {
 	text-align:center;
 }
 
