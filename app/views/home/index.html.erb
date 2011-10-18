@@ -2,13 +2,13 @@
 <div id="container">
 <div id="left">
 	<div id="senator_edouard">
-		<%= image_tag "senator_eduard.png", :alt => "0" %>
+		<%= image_tag "senator_edouard.png" %>
 	</div>
 	<div id="frame">
-		<%= image_tag "frame.png", :alt => "2" %>
+		<%= image_tag "frame.png" %>
 	</div>
 	<div id="top_hat">
-		<%= image_tag "top_hat.png", :alt => "1" %>
+		<%= image_tag "top_hat.png" %>
 	</div>
 </div>
 
@@ -25,7 +25,9 @@
 
 	<li id="slide2">
 		<%= image_tag "slide2_text.png" %>
-		<%= select_tag "top_hat_position", options_for_select(["static", "fixed", "relative", "absolute"]) %>
+		<div id="top_hat_position_menu">
+			<%= select_tag "top_hat_position", options_for_select(["static", "fixed", "relative", "absolute"]) %>
+		</div>
 		<div id="prev2">
 			<%= image_tag "back_hand.png", :alt => "previous" %>
 		</div>
@@ -36,10 +38,9 @@
 		
 	<li id="slide3">
 		<%= image_tag "slide3_text.png" %>
-		<%= select_tag "top_hat_z-index", options_for_select(["0", "1", "2", "3"]) %>
-		<br/>
-		<%= select_tag "frame_position", options_for_select(["static", "fixed", "relative", "absolute"]) %>
-		<%= select_tag "frame_z-index", options_for_select(["0", "1", "2", "3"]) %>
+		<div id="frame_position_menu">
+			<%= select_tag "frame_position", options_for_select(["static", "fixed", "relative", "absolute"]) %>
+		</div>
 		<div id="prev3">
 			<%= image_tag "back_hand.png", :alt => "previous" %>
 		</div>
@@ -49,6 +50,13 @@
 	</li>
 		
 	<li id="slide4">
+		<%= image_tag "slide4_text.png" %>
+		<div id="top_hat_z-index_menu">
+			<%= select_tag "top_hat_z-index", options_for_select(["0", "1", "2", "3"]) %>
+		</div>
+		<div id="frame_z-index_menu">
+			<%= select_tag "frame_z-index", options_for_select(["0", "1", "2", "3"]) %>
+		</div>
 		<div id="prev4">
 			<%= image_tag "back_hand.png", :alt => "next" %>
 		</div>
