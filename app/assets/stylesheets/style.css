@@ -34,9 +34,10 @@ body {
 
 
 #right {
-	position:fixed;
+	position:absolute;
 	top:10px;
-	left:250px;
+/*	left:250px;*/
+/*	left:10%;*/
 }
 
 ul.slideshow {
