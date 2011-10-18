@@ -49,6 +49,7 @@ $(document).ready(function(){
 		$('#top_hat').css('z-index', str);
 	});
 	
+	
 	$('#frame_position').change(function() {
 		var str = $(this).children("option:selected").text();
 		$('#frame').css('position', str);
