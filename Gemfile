@@ -35,3 +35,7 @@ group :test do
   gem 'turn', :require => false
   gem 'jasmine'
 end
+
+group :production do
+  gem 'therubyracer-heroku', '0.8.1.pre3'
+end
